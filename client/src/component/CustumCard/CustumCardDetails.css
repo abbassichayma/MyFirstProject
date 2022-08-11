@@ -1,0 +1,92 @@
+.SinglePostTitle{
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+   
+}
+.CardTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #be9656;
+    cursor: pointer;
+}
+.singlePostTitleInput{
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+    text-align: center;
+  width: 70% !important;
+  /* margin-left: 135px !important; */
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+.singlePostTitleInput:focus{
+    outline:none !important;
+}
+
+.singlePostEdit{
+    float: right;
+    font-size: 20px;
+
+}
+.singlePostIcon{
+margin-left: 10px ;
+cursor: pointer;
+display: flex;
+}
+
+.singlePostIcon:first-child{
+    color:teal ;
+}
+.singlePostIcon:last-child{
+    color: tomato;
+}
+.SinglePostInfo{
+    margin-bottom: 20px;
+    display:flex ;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    color: #b39656;
+  
+}
+.singlePostDesc{
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    padding-left: 11px;
+    padding-right: 11px;
+ 
+
+}
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singlePostEdit {
+    display: flex;
+}
+.singlePostDescInput{
+    border: none !important;
+    color:#666;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+.singlePostDescInput:focus{
+    outline: none;
+}
+
+.singlePostButton{
+    border: none;
+    background-color: teal;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 7px
+}
+

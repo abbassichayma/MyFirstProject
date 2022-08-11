@@ -1,0 +1,60 @@
+.register{
+    align-items: center;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ),url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg");
+    background-size: cover;
+
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm >label{
+    margin:10px 0;
+    text-align: start;
+
+}
+.registerInput{
+    padding: 10px;
+    background: white !important;
+    border: none;
+
+}
+.registerButton{
+    margin-top: 20px;
+    background-color: teal !important;
+    border: none ;
+    color: white;
+    border-radius: 10px;
+}
+/* .registerLoginButton{
+    position: absolute !important;
+    top:75px;
+    right: 20px;
+    background: lightcoral !important;
+    border: none;
+    color: white;
+    border-radius: 10px !important;
+    
+} */
+
+
+ .registerLoginButton{
+margin-top: 20px;
+    background: lightcoral !important;
+    border: none ;
+    color: white;
+    border-radius: 10px;
+    width: 216px;
+} 
+

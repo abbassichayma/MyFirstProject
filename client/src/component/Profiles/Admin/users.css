@@ -1,0 +1,15 @@
+.User{
+    background: teal !important;
+    border: none !important;
+    color: white;
+    border-radius: 10px !important;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+}
+.supUser{
+    color:white !important;
+   border-radius: 10px !important;
+   background: teal !important;
+   border: none !important;
+}

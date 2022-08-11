@@ -1,0 +1,28 @@
+.avatar{
+    cursor: pointer;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+        border: red !important;
+        background: whitesmoke!important;
+        text-align: center !important;
+    }
+    
+    .searsh{
+        width: 143px !important;
+        margin-right: 59px;
+       
+        color: teal !important;
+        border-bottom: solid 1px !important;
+        padding-bottom: 2px;
+        text-align: center;
+        border:none !important;
+        border-bottom: teal solid 1px !important;
+      
+    }
+    
+    span.span {
+        margin-right: 43px;
+        margin-left: -51px;
+        cursor: pointer;
+    }
+    

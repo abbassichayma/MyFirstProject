@@ -1,0 +1,53 @@
+img.card-img-top {
+    /* padding-top: 20px; */
+    border-radius: 8px;
+    width: 300px;
+    height: 220px;
+}
+video {
+    /* padding-top: 20px; */
+    border-radius: 8px;
+    width: 300px !important;
+    height: 200px !important;
+}
+.CardTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #be9656;
+    cursor: pointer;
+}
+.postDate{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #999;
+    margin-top: 15px;
+
+}
+.cardDescription {
+    line-height: 24px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    color: #444;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.like {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.heart{
+    cursor: pointer;
+    color: rgb(125, 125, 216);
+}
+.share{
+    cursor: pointer;
+    color: rgb(125, 125, 216);
+}
+::after {
+    display: none !important;
+}

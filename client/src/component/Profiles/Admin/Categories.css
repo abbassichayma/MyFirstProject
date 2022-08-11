@@ -1,0 +1,15 @@
+
+.cats{
+    background: lightcoral !important;
+    border: none !important;
+    color: white;
+    border-radius: 10px !important;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+}
+.supCats{
+    color:white !important;
+    border-radius: 10px !important;
+    background: lightcoral !important;
+}

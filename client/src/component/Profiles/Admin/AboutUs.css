@@ -1,0 +1,35 @@
+.titleAboutUs{
+    align-items: center;
+    font-family: 'Lora',serif;
+    color: #be9656;
+    font-size:30px;
+    color: 1a0e81;
+}
+small#passwordHelpBlock {
+    color: black !important;
+}
+
+
+  
+  .social-list{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    padding:0;
+  }
+  
+  .social-list li{
+    padding:10px;
+    font-size:21px;
+  }
+  .email{
+    color: blue;
+    font-size: 15px;
+  }
+  .facebook{
+    color:blue
+  }
+  .youtube{
+    color:red;
+  }
+  
